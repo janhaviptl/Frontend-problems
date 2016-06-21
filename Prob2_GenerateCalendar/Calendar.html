@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Calendar_style.css">
+        <title>Calendar</title>
+    </head>
+    <body>
+        <select id="ch_month">
+            <option value="0">January</option><option value="1">February</option><option value="2">March</option><option value="3">April</option>
+            <option value="4">May</option><option value="5">June</option><option value="6">July</option><option value="7">August</option>
+            <option value="8">September</option><option value="9">October</option><option value="10">November</option><option id="11">December</option>
+        </select>
+        <input type="text" id="enter_year" placeholder="Enter the year" min="1970" max="2016" />
+        <input type="button" id="show_cal" value="Display Calendar"/> <br><br>
+        <div id="cal_grid">
+            <div id="cal_head"><h1 id="cal_month"></h1></div>
+            <div id="cal_dates"></div>
+        </div>
+        <script src="Calendar_script.js"></script>
+    </body>
+</html>

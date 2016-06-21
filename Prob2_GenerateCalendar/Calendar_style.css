@@ -1,0 +1,23 @@
+#cal_grid {
+    border: 2px solid lightblue;
+    width: 20%;
+    text-align: center;
+    background-color: lightblue;
+    font-family:cursive;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+#cal_grid > div {
+    padding: 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#cal_month {
+    margin: 5px;
+}
+
+th {
+    padding: 5px;
+}
